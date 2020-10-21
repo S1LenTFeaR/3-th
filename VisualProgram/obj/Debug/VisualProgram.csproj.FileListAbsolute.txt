@@ -1,0 +1,13 @@
+D:\desktop\3'th\VisualProgram\bin\Debug\VisualProgram.exe.config
+D:\desktop\3'th\VisualProgram\bin\Debug\VisualProgram.exe
+D:\desktop\3'th\VisualProgram\bin\Debug\VisualProgram.pdb
+D:\desktop\3'th\VisualProgram\obj\Debug\VisualProgram.csprojAssemblyReference.cache
+D:\desktop\3'th\VisualProgram\obj\Debug\VisualProgram.Properties.Resources.resources
+D:\desktop\3'th\VisualProgram\obj\Debug\VisualProgram.csproj.GenerateResource.cache
+D:\desktop\3'th\VisualProgram\obj\Debug\VisualProgram.csproj.CoreCompileInputs.cache
+D:\desktop\3'th\VisualProgram\obj\Debug\VisualProgram.exe
+D:\desktop\3'th\VisualProgram\obj\Debug\VisualProgram.pdb
+D:\desktop\3'th\VisualProgram\bin\Debug\ru\VisualProgram.resources.dll
+D:\desktop\3'th\VisualProgram\obj\Debug\VisualProgram.Vector.resources
+D:\desktop\3'th\VisualProgram\obj\Debug\VisualProgram.Vector.ru.resources
+D:\desktop\3'th\VisualProgram\obj\Debug\ru\VisualProgram.resources.dll
