@@ -30,27 +30,30 @@ namespace _3_lab
         }
         private void Button1_Click(object sender, EventArgs e)
         {
+            /* Внутри кажждого блока с условием происходит вызов соответствующих
+            конструктора фигуры нужного типа, 
+            информации о фигуре, а также методов нахождения площади и периметра */
             if (radioButton1.Checked == true)
             {
-                Rectangle f1 = new Rectangle(5, 2);
-                textBox1.Text = f1.GetInfo(f1);
-                textBox2.Text = Convert.ToString(f1.Area(f1));
-                textBox3.Text = Convert.ToString(f1.Perimeter(f1));
+                Figure f1 = new Rectangle(5, 2);
+                textBox1.Text = f1.GetInfo();
+                textBox2.Text = Convert.ToString(f1.Area());
+                textBox3.Text = Convert.ToString(f1.Perimeter());
 
             }
             else if (radioButton2.Checked == true)
             {
-                Trapezium f1 = new Trapezium(3, 5, 5, 5);
-                textBox1.Text = f1.GetInfo(f1);
-                textBox2.Text = Convert.ToString(f1.Area(f1));
-                textBox3.Text = Convert.ToString(f1.Perimeter(f1));
+                Figure f1 = new Trapezium(3, 5, 5, 5);
+                textBox1.Text = f1.GetInfo();
+                textBox2.Text = Convert.ToString(f1.Area());
+                textBox3.Text = Convert.ToString(f1.Perimeter());
             }
             else if (radioButton3.Checked == true)
             {
-                Circle f1 = new Circle(5);
-                textBox1.Text = f1.GetInfo(f1);
-                textBox2.Text = Convert.ToString(f1.Area(f1));
-                textBox3.Text = Convert.ToString(f1.Perimeter(f1));
+                Figure f1 = new Circle(5);
+                textBox1.Text = f1.GetInfo();
+                textBox2.Text = Convert.ToString(f1.Area());
+                textBox3.Text = Convert.ToString(f1.Perimeter());
             }
         }
         private void TextBox2_TextChanged(object sender, EventArgs e)

@@ -22,37 +22,37 @@ namespace VisualProgram
         double[] X = new double[2];
         double[] Y = new double[2];
         double[] Z = new double[2];
-        void v2_disabled()
+        void v2_disabled() //Отключение 2-го вектора
         {
             TextX2.Enabled = false;
             TextY2.Enabled = false;
             TextZ2.Enabled = false;
         }
-        void v2_enebled()
+        void v2_enebled() //Включение 2-го вектора
         {
             TextX2.Enabled = true;
             TextY2.Enabled = true;
             TextZ2.Enabled = true;
         }
-        void v3_disabled()
+        void v3_disabled() //Отключение 3-го вектора
         {
             TextX3.Enabled = false;
             TextY3.Enabled = false;
             TextZ3.Enabled = false;
         }
-        void v3_enebled()
+        void v3_enebled() //Включение 3-го вектора
         {
             TextX3.Enabled = true;
             TextY3.Enabled = true;
             TextZ3.Enabled = true;
         }
-        void v1_on_display(MyVector v1)
+        void v1_on_display(MyVector v1) //Вывод значений 1-го вектора на экран
         {
             TextX1.Text = Convert.ToString(v1.x);
             Text1.Text = Convert.ToString(v1.y);
             TextZ1.Text = Convert.ToString(v1.z);
         }
-        void v3_on_display(MyVector v3)
+        void v3_on_display(MyVector v3) //Вывод значений 3-го вектора на экран
         {
             TextX3.Text = Convert.ToString(v3.x);
             TextY3.Text = Convert.ToString(v3.y);
@@ -62,12 +62,10 @@ namespace VisualProgram
         {
 
         }
-
         private void Label1_Click(object sender, EventArgs e)
         {
 
         }
-
         private void TextBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -159,7 +157,6 @@ namespace VisualProgram
                 textMod.Enabled = false;
             }
         }
-
         private void radioButton6_CheckedChanged(object sender, EventArgs e)
         {
 
@@ -184,8 +181,7 @@ namespace VisualProgram
         {
 
         }
-
-        private void Button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e) //Кнопка перевода сферических коорд-т в декартовые
         {
             MyVector v1 = new MyVector();
             v1 = v1.spher(Convert.ToDouble(TextR.Text), Convert.ToDouble(TextFI.Text), Convert.ToDouble(TextO.Text));
@@ -193,19 +189,19 @@ namespace VisualProgram
         }
         private void Button2_Click(object sender, EventArgs e)
         {
-            if (radioButton1.Checked == true)
+            if (radioButton1.Checked == true) //Сумма
             {
                 MyVector v3 = new MyVector();
                 v3 = v1 + v2;
                 v3_on_display(v3);
             }
-            else if (radioButton2.Checked == true)
+            else if (radioButton2.Checked == true) //Разность
             {
                 MyVector v3 = new MyVector();
                 v3 = v1 - v2;
                 v3_on_display(v3);
             }
-            else if (radioButton3.Checked == true)
+            else if (radioButton3.Checked == true) //Произведение на скаляр
             {
                 MyVector v3 = new MyVector();
                 double Sk = Convert.ToDouble(textScal.Text);
@@ -213,6 +209,9 @@ namespace VisualProgram
                 v3_on_display(v3);
             }
             else if (radioButton4.Checked == true)
+            /*Нахождение модуля вектора 1, а также расчет проекции вектора
+             1 на вектор 2 (Сначала вектора перемножаются между собой,
+             послле чего их произведение делится на модуль 2-го вектора)*/
             {
                 textMod.Text = Convert.ToString(v1.moodle(v1));
                 textPro.Text = Convert.ToString(v1.projection(v1, v2)); 
