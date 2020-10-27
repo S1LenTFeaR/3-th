@@ -11,3 +11,16 @@ D:\desktop\3'th\VisualProgram\bin\Debug\ru\VisualProgram.resources.dll
 D:\desktop\3'th\VisualProgram\obj\Debug\VisualProgram.Vector.resources
 D:\desktop\3'th\VisualProgram\obj\Debug\VisualProgram.Vector.ru.resources
 D:\desktop\3'th\VisualProgram\obj\Debug\ru\VisualProgram.resources.dll
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\bin\Debug\VisualProgram.exe.config
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\bin\Debug\VisualProgram.exe
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\bin\Debug\VisualProgram.pdb
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\bin\Debug\ru\VisualProgram.resources.dll
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\obj\Debug\VisualProgram.csprojAssemblyReference.cache
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\obj\Debug\VisualProgram.Vector.resources
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\obj\Debug\VisualProgram.Properties.Resources.resources
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\obj\Debug\VisualProgram.Vector.ru.resources
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\obj\Debug\VisualProgram.csproj.GenerateResource.cache
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\obj\Debug\VisualProgram.csproj.CoreCompileInputs.cache
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\obj\Debug\ru\VisualProgram.resources.dll
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\obj\Debug\VisualProgram.exe
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\obj\Debug\VisualProgram.pdb

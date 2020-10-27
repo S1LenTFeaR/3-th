@@ -1,0 +1,12 @@
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\bin\Release\VisualProgram.exe.config
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\bin\Release\VisualProgram.exe
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\bin\Release\VisualProgram.pdb
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\bin\Release\ru\VisualProgram.resources.dll
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\obj\Release\VisualProgram.Vector.resources
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\obj\Release\VisualProgram.Properties.Resources.resources
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\obj\Release\VisualProgram.Vector.ru.resources
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\obj\Release\VisualProgram.csproj.GenerateResource.cache
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\obj\Release\VisualProgram.csproj.CoreCompileInputs.cache
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\obj\Release\ru\VisualProgram.resources.dll
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\obj\Release\VisualProgram.exe
+\\10.10.4.50\StudentData\ПРИ\ПрИ-181\Горбач А.А\3-th-main\VisualProgram\obj\Release\VisualProgram.pdb

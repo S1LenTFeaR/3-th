@@ -1,0 +1,10 @@
+D:\desktop\3'th\VisualProgram\3 lab\3 lab\obj\Debug\3 lab.csprojAssemblyReference.cache
+D:\desktop\3'th\VisualProgram\3 lab\3 lab\obj\Debug\_3_lab.Form1.resources
+D:\desktop\3'th\VisualProgram\3 lab\3 lab\obj\Debug\_3_lab.Properties.Resources.resources
+D:\desktop\3'th\VisualProgram\3 lab\3 lab\obj\Debug\3 lab.csproj.GenerateResource.cache
+D:\desktop\3'th\VisualProgram\3 lab\3 lab\obj\Debug\3 lab.csproj.CoreCompileInputs.cache
+D:\desktop\3'th\VisualProgram\3 lab\3 lab\bin\Debug\3 lab.exe.config
+D:\desktop\3'th\VisualProgram\3 lab\3 lab\bin\Debug\3 lab.exe
+D:\desktop\3'th\VisualProgram\3 lab\3 lab\bin\Debug\3 lab.pdb
+D:\desktop\3'th\VisualProgram\3 lab\3 lab\obj\Debug\3 lab.exe
+D:\desktop\3'th\VisualProgram\3 lab\3 lab\obj\Debug\3 lab.pdb
