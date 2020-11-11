@@ -1,0 +1,7 @@
+﻿  main.cpp
+D:\desktop\3'th\Mat Mod\lab1-2\main.cpp(17): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\desktop\3'th\Mat Mod\lab1-2\main.cpp(18): warning C4244: инициализация: преобразование "double" в "unsigned int", возможна потеря данных
+D:\desktop\3'th\Mat Mod\lab1-2\main.cpp(19): warning C4244: инициализация: преобразование "double" в "unsigned int", возможна потеря данных
+D:\desktop\3'th\Mat Mod\lab1-2\main.cpp(20): warning C4244: инициализация: преобразование "double" в "unsigned int", возможна потеря данных
+D:\desktop\3'th\Mat Mod\lab1-2\main.cpp(21): warning C4244: инициализация: преобразование "double" в "unsigned int", возможна потеря данных
+  cpp2.vcxproj -> D:\desktop\3'th\Mat Mod\lab1-2\Debug\lab1-2.exe
