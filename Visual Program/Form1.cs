@@ -5,8 +5,9 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading.Tasks;
+
 
 namespace Visual_Program
 {
@@ -16,84 +17,59 @@ namespace Visual_Program
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
+        //Инициализация списка координат движений мыши
+        private List<PointF> path = new List<PointF>();
+        //Инициализация класа "окружность"
+        Circle circ = new Circle();
+        //Статус
+        bool isCircle = false;
+        //Счетчик
+        int count = 0;
+        //Событие, отвечающее за сохранение коррдинат при движении мыши
+        private void Panel1_MouseMove(object sender, MouseEventArgs e)
         {
-
-        }
-        GenericsFIFO<decimal> n = new GenericsFIFO<decimal>();
-
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            if (radioButton1.Checked == true)
+            //Отслеживаем координаты в реальном времени
+            lcoord.Text = e.Location.ToString();
+            //Считываем каждую десятую корординату с зажатой ЛКМ
+            if (e.Button == MouseButtons.Left)
             {
-                string text = "";
-                n.Push(numericUpDown2.Value);
-                foreach (decimal i in n)
-                {
-                    text += Convert.ToString(i + " ");
+                if (count % 10 == 0)
+                { 
+                    // Добавляем позицию мыши в список точек
+                    path.Add(e.Location);
                 }
-                textBox1.Text = text;
+                count++;
             }
-            else if(radioButton2.Checked == true)
+        }
+        //Событие, которое отвечает за проверку условия окружности
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            double fi = 0;
+            double h = 360.0 / (count / 10.0);
+            foreach (PointF s in path)
             {
-                string text = "";
-                n.Pop();
-                foreach (decimal i in n)
+                if (s.X >= circ.FuncX(fi, Convert.ToDouble(numericR.Value)) - Convert.ToDouble(numericQ.Value) && (s.X <= circ.FuncX(fi, Convert.ToDouble(numericR.Value)) + Convert.ToDouble(numericQ.Value))
+                    && s.Y >= circ.FuncY(fi, Convert.ToDouble(numericR.Value)) - Convert.ToDouble(numericQ.Value) && (s.Y <= circ.FuncY(fi, Convert.ToDouble(numericR.Value)) + Convert.ToDouble(numericQ.Value)))
                 {
-                    text += Convert.ToString(i + " ");
+                    fi += h;
+                    isCircle = true;
                 }
-                textBox1.Text = text;
+                else
+                {
+                    isCircle = false;
+                    break;
+                }
+            }
+            path.Clear();
+            count = 0;
+            if (isCircle == true)
+            {
+                label3.Text = "Окружность";
             }
             else
             {
-                numericUpDown3.Value = n.Get(Convert.ToInt32(numericUpDown2.Value));
+                label3.Text = "Ведите курсор по окружности";
             }
-            numericUpDown1.Value = n.Count;
-        }
-
-        private void RadioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-            numericUpDown2.Enabled = true;
-            label1.Text = "Число";
-            numericUpDown3.Enabled = false;
-            button1.Text = "Добавить";
-        }
-
-        private void RadioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-            numericUpDown2.Enabled = false;
-            numericUpDown3.Enabled = false;
-            button1.Text = "Изъять";
-        }
-
-        private void RadioButton3_CheckedChanged(object sender, EventArgs e)
-        {
-            numericUpDown2.Enabled = true;
-            label1.Text = "Номер";
-            numericUpDown3.Enabled = true;
-            button1.Text = "Получить";
-        }
-
-        private void Label1_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void NumericUpDown1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void NumericUpDown3_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void Label2_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void NumericUpDown2_ValueChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

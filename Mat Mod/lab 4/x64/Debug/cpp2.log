@@ -1,0 +1,10 @@
+﻿E:\Software\VisualStudio\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(411,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (cpp2.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  main.cpp
+D:\desktop\3'th\Mat Mod\lab1-2\main.cpp(21): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\desktop\3'th\Mat Mod\lab1-2\main.cpp(22): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+D:\desktop\3'th\Mat Mod\lab1-2\main.cpp(23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+D:\desktop\3'th\Mat Mod\lab1-2\main.cpp(24): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+D:\desktop\3'th\Mat Mod\lab1-2\main.cpp(25): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+D:\desktop\3'th\Mat Mod\lab1-2\main.cpp(26): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+D:\desktop\3'th\Mat Mod\lab1-2\main.cpp(27): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  cpp2.vcxproj -> D:\desktop\3'th\Mat Mod\lab 4\x64\Debug\lab1-2.exe
