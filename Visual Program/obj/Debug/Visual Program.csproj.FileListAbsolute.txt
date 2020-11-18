@@ -8,3 +8,4 @@ D:\desktop\3'th\Visual Program\obj\Debug\Visual Program.csproj.GenerateResource.
 D:\desktop\3'th\Visual Program\obj\Debug\Visual Program.csproj.CoreCompileInputs.cache
 D:\desktop\3'th\Visual Program\obj\Debug\Visual Program.exe
 D:\desktop\3'th\Visual Program\obj\Debug\Visual Program.pdb
+D:\desktop\3'th\Visual Program\obj\Debug\Visual_Program.MouseBox.resources

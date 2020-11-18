@@ -3,7 +3,7 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.ibm.datatools.uom.ui.migration.internal.objadmin.editor.physicalmodel.CMPhysicalModelEditor&quot; name=&quot;book.dbm&quot; tooltip=&quot;&#x413;&#x43e;&#x440;&#x431;&#x430;&#x447; - &#x43a;&#x43d;&#x438;&#x436;&#x43d;&#x44b;&#x439; &#x43c;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43d;/book.dbm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/&#x413;&#x43e;&#x440;&#x431;&#x430;&#x447; - &#x43a;&#x43d;&#x438;&#x436;&#x43d;&#x44b;&#x439; &#x43c;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43d;/book.dbm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;com.ibm.datatools.quick.launch.ui.editor.QuickLaunchInputFactory&quot; id=&quot;com.ibm.datatools.quick.launch.ui.editor.QuickLaunchEditor&quot; name=&quot;&#x41f;&#x430;&#x43d;&#x435;&#x43b;&#x44c; &#x437;&#x430;&#x43f;&#x443;&#x441;&#x43a;&#x430; &#x437;&#x430;&#x434;&#x430;&#x447;&quot; tooltip=&quot;&#x41f;&#x430;&#x43d;&#x435;&#x43b;&#x44c; &#x437;&#x430;&#x43f;&#x443;&#x441;&#x43a;&#x430; &#x437;&#x430;&#x434;&#x430;&#x447;&quot;>&#xD;&#xA;&lt;persistable solutionId=&quot;com.ibm.datatools.core.internal.ui.perspective&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_ga-68B6VEeuPLpAUnEMu0A" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_gpDzMh6VEeuPLpAUnEMu0A" label="%trimmedwindow.label.eclipseSDK" x="711" y="461" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_ga-68B6VEeuPLpAUnEMu0A" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_gpDzMh6VEeuPLpAUnEMu0A" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -115,10 +115,9 @@
           <tags>persp.viewSC:org.eclipse.ui.views.ContentOutline</tags>
           <tags>persp.actionSet:com.ibm.datatools.re.ui.actionSet</tags>
           <tags>persp.actionSet:com.ibm.datatools.validation.ui.actionSet</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_RSlwwiN9Eeu6JKmH51yeKg" selectedElement="_RSlwwyN9Eeu6JKmH51yeKg" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_RSlwwiN9Eeu6JKmH51yeKg" selectedElement="_RSlwyCN9Eeu6JKmH51yeKg" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_RSlwwyN9Eeu6JKmH51yeKg" containerData="2500" selectedElement="_RSlwxCN9Eeu6JKmH51yeKg">
               <children xsi:type="basic:PartStack" xmi:id="_RSlwxCN9Eeu6JKmH51yeKg" elementId="leftFolder" containerData="5000" selectedElement="_RSlwxSN9Eeu6JKmH51yeKg">
-                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_RSlwxSN9Eeu6JKmH51yeKg" elementId="com.ibm.datatools.project.ui.projectExplorer" ref="_RSj7kCN9Eeu6JKmH51yeKg"/>
               </children>
               <children xsi:type="basic:PartStack" xmi:id="_RSlwxiN9Eeu6JKmH51yeKg" elementId="leftBottomFolder" containerData="5000" selectedElement="_RSlwxyN9Eeu6JKmH51yeKg">
@@ -126,7 +125,7 @@
               </children>
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_RSlwyCN9Eeu6JKmH51yeKg" containerData="7500" selectedElement="_RSlwySN9Eeu6JKmH51yeKg">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_RSlwySN9Eeu6JKmH51yeKg" containerData="6600" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_RSlwySN9Eeu6JKmH51yeKg" containerData="6600" selectedElement="_RSlwyiN9Eeu6JKmH51yeKg" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_RSlwyiN9Eeu6JKmH51yeKg" elementId="org.eclipse.ui.editorss" containerData="4309" ref="_gvd9MB6VEeuPLpAUnEMu0A"/>
                 <children xsi:type="basic:PartStack" xmi:id="_RSlwyyN9Eeu6JKmH51yeKg" elementId="org.eclipse.ui.views.ContentOutlineMStack" toBeRendered="false" containerData="5691">
                   <children xsi:type="advanced:Placeholder" xmi:id="_RSlwzCN9Eeu6JKmH51yeKg" elementId="org.eclipse.ui.views.ContentOutline" toBeRendered="false" ref="_RSlwwCN9Eeu6JKmH51yeKg"/>
@@ -171,14 +170,29 @@
       <tags>categoryTag:&#x421;&#x43f;&#x440;&#x430;&#x432;&#x43a;&#x430;</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_gvd9MB6VEeuPLpAUnEMu0A" elementId="org.eclipse.ui.editorss" selectedElement="_gvd9MR6VEeuPLpAUnEMu0A">
-      <children xsi:type="basic:PartStack" xmi:id="_gvd9MR6VEeuPLpAUnEMu0A" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_hSGwMB6VEeuPLpAUnEMu0A">
+      <children xsi:type="basic:PartStack" xmi:id="_gvd9MR6VEeuPLpAUnEMu0A" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_BG5w8Ck-Eeu1fYA--xktgg">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_hSGwMB6VEeuPLpAUnEMu0A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="&#x41f;&#x430;&#x43d;&#x435;&#x43b;&#x44c; &#x437;&#x430;&#x43f;&#x443;&#x441;&#x43a;&#x430; &#x437;&#x430;&#x434;&#x430;&#x447;" iconURI="platform:/plugin/com.ibm.datatools.quick.launch.ui/icons/Task_Launcher.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.ibm.datatools.quick.launch.ui.editor.QuickLaunchEditor&quot; name=&quot;&#x41f;&#x430;&#x43d;&#x435;&#x43b;&#x44c; &#x437;&#x430;&#x43f;&#x443;&#x441;&#x43a;&#x430; &#x437;&#x430;&#x434;&#x430;&#x447;&quot; partName=&quot;&#x41f;&#x430;&#x43d;&#x435;&#x43b;&#x44c; &#x437;&#x430;&#x43f;&#x443;&#x441;&#x43a;&#x430; &#x437;&#x430;&#x434;&#x430;&#x447;&quot; title=&quot;&#x41f;&#x430;&#x43d;&#x435;&#x43b;&#x44c; &#x437;&#x430;&#x43f;&#x443;&#x441;&#x43a;&#x430; &#x437;&#x430;&#x434;&#x430;&#x447;&quot; tooltip=&quot;&#x41f;&#x430;&#x43d;&#x435;&#x43b;&#x44c; &#x437;&#x430;&#x43f;&#x443;&#x441;&#x43a;&#x430; &#x437;&#x430;&#x434;&#x430;&#x447;&quot;>&#xD;&#xA;&lt;input factoryID=&quot;com.ibm.datatools.quick.launch.ui.editor.QuickLaunchInputFactory&quot; solutionId=&quot;com.ibm.datatools.core.internal.ui.perspective&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>com.ibm.datatools.quick.launch.ui.editor.QuickLaunchEditor</tags>
           <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_rv7zYCk9Eeu1fYA--xktgg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="book.dbm" iconURI="platform:/plugin/org.eclipse.datatools.connectivity.sqm.core.ui/icons/database.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.ibm.datatools.uom.ui.migration.internal.objadmin.editor.physicalmodel.CMPhysicalModelEditor&quot; name=&quot;book.dbm&quot; partName=&quot;book.dbm&quot; title=&quot;book.dbm&quot; tooltip=&quot;\&#x413;&#x43e;&#x440;&#x431;&#x430;&#x447; - &#x43a;&#x43d;&#x438;&#x436;&#x43d;&#x44b;&#x439; &#x43c;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43d;\book.dbm&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/&#x413;&#x43e;&#x440;&#x431;&#x430;&#x447; - &#x43a;&#x43d;&#x438;&#x436;&#x43d;&#x44b;&#x439; &#x43c;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43d;/book.dbm&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>com.ibm.datatools.uom.ui.migration.internal.objadmin.editor.physicalmodel.CMPhysicalModelEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_BG5w8Ck-Eeu1fYA--xktgg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="&#x424;&#x438;&#x437;&#x438;&#x447;&#x435;&#x441;&#x43a;&#x430;&#x44f; &#x43c;&#x43e;&#x434;&#x435;&#x43b;&#x44c; &#x434;&#x430;&#x43d;&#x43d;&#x44b;&#x445;.dbm" iconURI="platform:/plugin/org.eclipse.datatools.connectivity.sqm.core.ui/icons/database.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.ibm.datatools.uom.ui.migration.internal.objadmin.editor.physicalmodel.CMPhysicalModelEditor&quot; name=&quot;&#x424;&#x438;&#x437;&#x438;&#x447;&#x435;&#x441;&#x43a;&#x430;&#x44f; &#x43c;&#x43e;&#x434;&#x435;&#x43b;&#x44c; &#x434;&#x430;&#x43d;&#x43d;&#x44b;&#x445;.dbm&quot; partName=&quot;&#x424;&#x438;&#x437;&#x438;&#x447;&#x435;&#x441;&#x43a;&#x430;&#x44f; &#x43c;&#x43e;&#x434;&#x435;&#x43b;&#x44c; &#x434;&#x430;&#x43d;&#x43d;&#x44b;&#x445;.dbm&quot; title=&quot;&#x424;&#x438;&#x437;&#x438;&#x447;&#x435;&#x441;&#x43a;&#x430;&#x44f; &#x43c;&#x43e;&#x434;&#x435;&#x43b;&#x44c; &#x434;&#x430;&#x43d;&#x43d;&#x44b;&#x445;.dbm&quot; tooltip=&quot;\&#x413;&#x43e;&#x440;&#x431;&#x430;&#x447; - &#x43a;&#x43d;&#x438;&#x436;&#x43d;&#x44b;&#x439; &#x43c;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43d;\&#x424;&#x438;&#x437;&#x438;&#x447;&#x435;&#x441;&#x43a;&#x430;&#x44f; &#x43c;&#x43e;&#x434;&#x435;&#x43b;&#x44c; &#x434;&#x430;&#x43d;&#x43d;&#x44b;&#x445;.dbm&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/&#x413;&#x43e;&#x440;&#x431;&#x430;&#x447; - &#x43a;&#x43d;&#x438;&#x436;&#x43d;&#x44b;&#x439; &#x43c;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43d;/&#x424;&#x438;&#x437;&#x438;&#x447;&#x435;&#x441;&#x43a;&#x430;&#x44f; &#x43c;&#x43e;&#x434;&#x435;&#x43b;&#x44c; &#x434;&#x430;&#x43d;&#x43d;&#x44b;&#x445;.dbm&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>com.ibm.datatools.uom.ui.migration.internal.objadmin.editor.physicalmodel.CMPhysicalModelEditor</tags>
+          <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
         </children>
       </children>
     </sharedElements>
@@ -209,8 +223,14 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_gvoVQB6VEeuPLpAUnEMu0A" elementId="com.ibm.datatools.sqltools2.sqlResultsView2" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="&#x420;&#x435;&#x437;&#x443;&#x43b;&#x44c;&#x442;&#x430;&#x442;&#x44b; SQL" iconURI="platform:/plugin/com.ibm.datatools.sqltools2/icons/sqlresult.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.ibm.datatols.sqltools2.view.ResultsView2"/>
       <persistedState key="originalCompatibilityViewBundle" value="com.ibm.datatools.sqltools2"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view columnWidth0=&quot;200&quot; columnWidth1=&quot;200&quot; columnWidth2=&quot;200&quot; columnWidth3=&quot;200&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:Data Management</tags>
+      <menus xmi:id="_74r1ECk8Eeu1fYA--xktgg" elementId="com.ibm.datatools.sqltools2.sqlResultsView2">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_74r1ESk8Eeu1fYA--xktgg" elementId="com.ibm.datatools.sqltools2.sqlResultsView2" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_RSj7kCN9Eeu6JKmH51yeKg" elementId="com.ibm.datatools.project.ui.projectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="&#x41e;&#x431;&#x437;&#x43e;&#x440; &#x43f;&#x440;&#x43e;&#x435;&#x43a;&#x442;&#x43e;&#x432; &#x434;&#x430;&#x43d;&#x43d;&#x44b;&#x445;" iconURI="platform:/plugin/com.ibm.datatools.core.ui/icons/project_explorer.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewBundle" value="com.ibm.datatools.project.core"/>
@@ -218,8 +238,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:Data Management</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_RVodsCN9Eeu6JKmH51yeKg" elementId="com.ibm.datatools.project.ui.projectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -257,7 +275,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_gqk2IB6VEeuPLpAUnEMu0A" elementId="org.eclipse.ui.workbench.file" visible="false">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_-FglgCP4Eeu5UvNgW8yO9A" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="&#x41f;&#x435;&#x447;&#x430;&#x442;&#x44c;" command="_gcNqRh6VEeuPLpAUnEMu0A"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_3mp_MCk8Eeu1fYA--xktgg" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="&#x41f;&#x435;&#x447;&#x430;&#x442;&#x44c;" command="_gcNqRh6VEeuPLpAUnEMu0A"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_gqk2IR6VEeuPLpAUnEMu0A" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -287,7 +305,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_gqk2JR6VEeuPLpAUnEMu0A" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_-FjBxSP4Eeu5UvNgW8yO9A" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="&#x417;&#x430;&#x43a;&#x440;&#x435;&#x43f;&#x438;&#x442;&#x44c; &#x440;&#x435;&#x434;&#x430;&#x43a;&#x442;&#x43e;&#x440;" type="Check" command="_gcNDYB6VEeuPLpAUnEMu0A"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_3mr0Yyk8Eeu1fYA--xktgg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="&#x417;&#x430;&#x43a;&#x440;&#x435;&#x43f;&#x438;&#x442;&#x44c; &#x440;&#x435;&#x434;&#x430;&#x43a;&#x442;&#x43e;&#x440;" type="Check" command="_gcNDYB6VEeuPLpAUnEMu0A"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_gqk2Jh6VEeuPLpAUnEMu0A" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2880,7 +2898,7 @@
   <addons xmi:id="_ga-7AR6VEeuPLpAUnEMu0A" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_ga-7Ah6VEeuPLpAUnEMu0A" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_gbjisB6VEeuPLpAUnEMu0A" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_3W5E4Sk8Eeu1fYA--xktgg" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_gcCq4B6VEeuPLpAUnEMu0A" elementId="org.eclipse.team.ui.category.team" name="&#x421;&#x43e;&#x432;&#x43c;&#x435;&#x441;&#x442;&#x43d;&#x430;&#x44f; &#x440;&#x430;&#x431;&#x43e;&#x442;&#x430;" description="&#x414;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x44f;, &#x43f;&#x440;&#x438;&#x43c;&#x435;&#x43d;&#x44f;&#x435;&#x43c;&#x44b;&#x435; &#x432; &#x421;&#x43e;&#x432;&#x43c;&#x435;&#x441;&#x442;&#x43d;&#x43e;&#x439; &#x440;&#x430;&#x431;&#x43e;&#x442;&#x435;"/>
   <categories xmi:id="_gcCq4R6VEeuPLpAUnEMu0A" elementId="org.eclipse.ui.category.views" name="&#x41f;&#x430;&#x43d;&#x435;&#x43b;&#x438;" description="&#x41a;&#x43e;&#x43c;&#x430;&#x43d;&#x434;&#x44b; &#x434;&#x43b;&#x44f; &#x43e;&#x442;&#x43a;&#x440;&#x44b;&#x442;&#x438;&#x44f; &#x43f;&#x430;&#x43d;&#x435;&#x43b;&#x435;&#x439;"/>
