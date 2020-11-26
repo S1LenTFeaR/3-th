@@ -195,9 +195,9 @@ namespace Visual_Program
         {
             //Интервалл
             float interval = size / 5;
-            /*Расстояние по горизонтали
-            Область, выделяемая под строку*/
-            double range = 0;
+            //Расстояние по горизонтали
+            //Выделяем область под первую букву
+            double range = 2 * size + interval;
             //Счетчики позиций символа и строки
             int NumberInString = 0;
             int NumberString = 0;

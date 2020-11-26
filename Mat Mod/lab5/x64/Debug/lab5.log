@@ -1,0 +1,5 @@
+﻿  main.cpp
+D:\desktop\3'th\Mat Mod\lab5\main.cpp(38): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\desktop\3'th\Mat Mod\lab5\main.cpp(40): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+D:\desktop\3'th\Mat Mod\lab5\main.cpp(41): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  lab5.vcxproj -> D:\desktop\3'th\Mat Mod\lab5\x64\Debug\lab5.exe

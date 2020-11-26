@@ -1,8 +1,8 @@
-#include<iostream>
-#include<clocale>
+#include <iostream>
+#include <clocale>
 #include <string> 
-#include<fstream>
-#include<Windows.h>
+#include <fstream>
+#include <Windows.h>
 using namespace std;
 //Вычисление коэффициента теплопроводности
 double PK(double x, double t)

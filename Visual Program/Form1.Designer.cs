@@ -36,10 +36,10 @@
             this.brail1.BackColor = System.Drawing.SystemColors.Control;
             this.brail1.Location = new System.Drawing.Point(12, 12);
             this.brail1.Name = "brail1";
-            this.brail1.size = 20F;
-            this.brail1.Size = new System.Drawing.Size(411, 243);
+            this.brail1.size = 30F;
+            this.brail1.Size = new System.Drawing.Size(411, 366);
             this.brail1.TabIndex = 3;
-            this.brail1.text = "Проверка программы";
+            this.brail1.text = "Тестирование Брайля";
             this.brail1.Load += new System.EventHandler(this.Brail1_Load);
             // 
             // Form1
@@ -47,7 +47,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(435, 267);
+            this.ClientSize = new System.Drawing.Size(435, 390);
             this.Controls.Add(this.brail1);
             this.Name = "Form1";
             this.Text = "Шрифт Брайля";
