@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\3%27th\Mat Mod\lab3\lab3.cpp">
+    <ClCompile Include="..\..\..\3%27th\Mat Mod\lab3\main3.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

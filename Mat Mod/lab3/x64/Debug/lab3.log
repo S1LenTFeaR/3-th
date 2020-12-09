@@ -1,3 +1,5 @@
-﻿  lab3.cpp
-D:\desktop\3'th\Mat Mod\lab3\lab3.cpp(14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+﻿  main3.cpp
+D:\desktop\3'th\Mat Mod\lab3\main3.cpp(34): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\desktop\3'th\Mat Mod\lab3\main3.cpp(41): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+D:\desktop\3'th\Mat Mod\lab3\main3.cpp(101): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
   lab3.vcxproj -> D:\desktop\3'th\Mat Mod\lab3\x64\Debug\lab3.exe
