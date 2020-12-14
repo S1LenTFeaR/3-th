@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C3227BDB-83D9-404C-992D-FF8D475FE123}</ProjectGuid>
+    <ProjectGuid>{CC1D38B4-565D-4BFF-90AB-7716A96E2399}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Visual_Program</RootNamespace>
     <AssemblyName>Visual Program</AssemblyName>
@@ -46,12 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="brail.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="brail.Designer.cs">
-      <DependentUpon>brail.cs</DependentUpon>
-    </Compile>
+    <Compile Include="MyVector.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,9 +55,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="brail.resx">
-      <DependentUpon>brail.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
