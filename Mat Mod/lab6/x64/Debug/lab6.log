@@ -1,0 +1,7 @@
+﻿  main.cpp
+D:\desktop\3'th\Mat Mod\lab6\main.cpp(32): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+D:\desktop\3'th\Mat Mod\lab6\main.cpp(35): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+D:\desktop\3'th\Mat Mod\lab6\main.cpp(210): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\desktop\3'th\Mat Mod\lab6\main.cpp(216): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+D:\desktop\3'th\Mat Mod\lab6\main.cpp(219): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  lab6.vcxproj -> D:\desktop\3'th\Mat Mod\lab6\x64\Debug\lab6.exe
