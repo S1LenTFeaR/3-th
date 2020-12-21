@@ -1,3 +1,0 @@
-﻿  main.cpp
-D:\desktop\3'th\Mat Mod\debil\main.cpp(17): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-  debil.vcxproj -> D:\desktop\3'th\Mat Mod\debil\x64\Debug\debil.exe

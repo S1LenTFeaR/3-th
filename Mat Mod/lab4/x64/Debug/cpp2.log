@@ -1,8 +1,0 @@
-﻿E:\Software\VisualStudio\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(411,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (cpp2.vcxproj, lab1-2.vcxproj).  Это может привести к ошибкам очистки и перестроения.
-  main4.cpp
-D:\desktop\3'th\Mat Mod\lab4\main4.cpp(23): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-D:\desktop\3'th\Mat Mod\lab4\main4.cpp(24): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
-D:\desktop\3'th\Mat Mod\lab4\main4.cpp(25): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
-D:\desktop\3'th\Mat Mod\lab4\main4.cpp(57): warning C4390: ";": обнаружен пустой контролируемый оператор; это правильно?
-D:\desktop\3'th\Mat Mod\lab4\main4.cpp(119): warning C4390: ";": обнаружен пустой контролируемый оператор; это правильно?
-  cpp2.vcxproj -> D:\desktop\3'th\Mat Mod\lab4\x64\Debug\lab4.exe
