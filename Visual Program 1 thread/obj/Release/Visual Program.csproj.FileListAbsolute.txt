@@ -1,9 +1,0 @@
-D:\desktop\3'th\Visual Program 1 thread\bin\Release\Visual Program.exe.config
-D:\desktop\3'th\Visual Program 1 thread\bin\Release\Visual Program.exe
-D:\desktop\3'th\Visual Program 1 thread\bin\Release\Visual Program.pdb
-D:\desktop\3'th\Visual Program 1 thread\obj\Release\Visual_Program.Form1.resources
-D:\desktop\3'th\Visual Program 1 thread\obj\Release\Visual_Program.Properties.Resources.resources
-D:\desktop\3'th\Visual Program 1 thread\obj\Release\Visual Program.csproj.GenerateResource.cache
-D:\desktop\3'th\Visual Program 1 thread\obj\Release\Visual Program.csproj.CoreCompileInputs.cache
-D:\desktop\3'th\Visual Program 1 thread\obj\Release\Visual Program.exe
-D:\desktop\3'th\Visual Program 1 thread\obj\Release\Visual Program.pdb
