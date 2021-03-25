@@ -1,0 +1,10 @@
+D:\desktop\3'th\AVM\obj\Debug\AVM.csprojAssemblyReference.cache
+D:\desktop\3'th\AVM\obj\Debug\AVM.Form1.resources
+D:\desktop\3'th\AVM\obj\Debug\AVM.Properties.Resources.resources
+D:\desktop\3'th\AVM\obj\Debug\AVM.csproj.GenerateResource.cache
+D:\desktop\3'th\AVM\obj\Debug\AVM.csproj.CoreCompileInputs.cache
+D:\desktop\3'th\AVM\bin\Debug\AVM.exe.config
+D:\desktop\3'th\AVM\bin\Debug\AVM.exe
+D:\desktop\3'th\AVM\bin\Debug\AVM.pdb
+D:\desktop\3'th\AVM\obj\Debug\AVM.exe
+D:\desktop\3'th\AVM\obj\Debug\AVM.pdb
