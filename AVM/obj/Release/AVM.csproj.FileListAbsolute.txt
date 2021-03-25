@@ -7,3 +7,4 @@ D:\desktop\3'th\AVM\obj\Release\AVM.csproj.GenerateResource.cache
 D:\desktop\3'th\AVM\obj\Release\AVM.csproj.CoreCompileInputs.cache
 D:\desktop\3'th\AVM\obj\Release\AVM.exe
 D:\desktop\3'th\AVM\obj\Release\AVM.pdb
+D:\desktop\3'th\AVM\obj\Release\AVM.csprojAssemblyReference.cache
