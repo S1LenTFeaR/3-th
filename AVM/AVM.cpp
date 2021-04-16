@@ -15,6 +15,7 @@ void main()
 		MOV EBX, 2FFh;
 		MOV ECX, 5h;
 		MOV EDX, 0h;
+		INC EDX;
 		ADD EDX, EAX;
 		ADD EDX, EBX;
 		ADD EDX, ECX;
