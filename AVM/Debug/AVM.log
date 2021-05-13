@@ -1,3 +1,3 @@
 ﻿  AVM.cpp
-D:\desktop\3'th\AVM\AVM.cpp(5): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\desktop\3'th\AVM\AVM.cpp(25): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
   AVM.vcxproj -> D:\desktop\3'th\AVM\Debug\AVM.exe
