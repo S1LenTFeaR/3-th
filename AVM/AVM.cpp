@@ -5,115 +5,129 @@
 
 using namespace std;
 
-//Функция вычисления погрешности
-double Eps(double sin_x, double y)
-{
-	double eps = 0;
-	_asm
-	{
-		FLD sin_x
-		FLD y
-		FSUB
-		FABS
-		FXCH st(0)
-		FSTP eps
-	}
-	cout << "Погрешность: " << eps << endl;
-}
-
 void main()
 {
-	while (true)
-	{
-		setlocale(LC_ALL, "RUS");
-
-		double x_grad, x;
-		cout << "Введите x: ";
-		cin >> x_grad;
-		
-		x = x_grad * PI / 180;
-		double sin_x;
-		
-		//Эталонное значение синуса
+	setlocale(LC_ALL, "Russian");
+	while(true)
+	{ 
+		int y = 0; //год
+		int m = 0; //мес
+		int dy, dm = 0;
+		int check, i = 1;
+		cout << "Введите год: ";
+		cin >> y;
+		cout << "Введите месяц: ";
+		cin >> m;
 		_asm
 		{
-			FLD x
-			FSIN
-			FXCH st(0)
-			FSTP sin_x
+			//Проверка, был ли введен месяц > 13
+			mov		eax, m
+		limit:
+			sub		eax, 1
+			cmp		eax, 0
+			je		my_begin
+			cmp		i, 13
+			je		my_exit
+			inc		i
+			jmp		limit
+		my_begin:
+			//Проверка на количество дней в году
+			//check = (y / 4) * 4;
+			mov		eax, y
+			sar		eax, 2 //сдвиг вправо
+			shl		eax, 2 //сдвиг влево
+			mov		check, eax
+			//Сравниваем, если y != check, то число не кратно 4
+			//Если кратно, то 366 дней в году, иначе 365
+			mov		eax, check
+			cmp		eax, y
+			jne		label365
+		label366:
+			mov		dy, 366
+			jmp		label366end
+		label365:
+			mov		dy, 365
+		//Проверяем, введен ли месяц, в котором 31 день
+		label366end:
+			cmp		m, 1
+			je		label31
+			cmp		m, 3
+			je		label31
+			cmp		m, 5
+			je		label31
+			cmp		m, 7
+			je		label31
+			cmp		m, 8
+			je		label31
+			cmp		m, 10
+			je		label31
+			cmp		m, 12
+			jne		label30
+		label31:
+			mov		dm, 31
+			jmp		my_exit
+		//Проверяем, введен ли месяц, в котором 30 дней
+		label30:
+			cmp		m, 4
+			je		label30a
+			cmp		m, 6
+			je		label30a
+			cmp		m, 9
+			je		label30a
+			cmp		m, 11
+			jne		label29
+		label30a:
+			mov		dm, 30
+			jmp		my_exit
+		//Проверяем, введен ли месяц, в котором 29 дней
+		//29 дней при условии, что в году 366 дней
+		label29:
+			cmp		m, 2
+			jne		label28a
+			cmp		dy, 366
+			jne		label28a
+			mov		dm, 29
+			jmp		my_exit
+		//Иначе 28 дней
+		label28a:
+			mov		dm, 28
+		//Выход
+		my_exit :
 		}
-
-		double x_3 = pow(x, 3);
-		double x_5 = pow(x, 5);
-		double x_7 = pow(x, 7);
-		double x_9 = pow(x, 9);
-		double x_11 = pow(x, 11);
-		double fact_1 = 1;
-		double fact_3 = fact_1 * 2 * 3;
-		double fact_5 = fact_3 * 4 * 5;
-		double fact_7 = fact_5 * 6 * 7;
-		double fact_9 = fact_7 * 8 * 9;
-		double fact_11 = fact_9 * 10 * 11;
-		double y = 0;
-		
-		//Рассчет 4 членов ряда Тейлора
-		_asm 
+		if(i != 13)
 		{
-			FLD x
-			FLD x_3
-			FLD fact_3
-			//st(2) = 3!, st(1) = x3, st(0) = x
-			FDIV //st(1) / st(2) --> st(1)
-			FSUB //st(0) - st(1) --> st(0) 
-			FLD x_5 //st(1) = x5
-			FLD fact_5 //st(2) = 5!
-			FDIV
-			FADD
-			FLD x_7
-			FLD fact_7
-			FDIV
-			FSUB
-			FXCH st(0)
-			FSTP y
+			cout << "В " << y << " году: " << dy << " дней" << endl;
+			cout << m << "-й месяц: " << dy << " дней" << endl;
 		}
-		cout.precision(12);
-		cout << "Для 4 членов ряда Тейлора" << endl;
-		cout << "Рассчитанное значение: sin(" << x_grad << ") = " << y << endl;
-		cout << "Эталонное значение: sin(" << x_grad << ") = " << sin_x << endl;
-		Eps(sin_x, y);
-
-		//Рассчет 5 членов ряда Тейлора
-		_asm {
-			FLD y
-			FLD x_9
-			FLD fact_9
-			FDIV
-			FADD
-			FXCH st(0)
-			FSTP y
-		}
-		cout << endl;
-		cout << "Для 5 членов ряда Тейлора" << endl;
-		cout << "Рассчитанное значение: sin(" << x_grad << ") = " << y << endl;
-		cout << "Эталонное значение: sin(" << x_grad << ") = " << sin_x << endl;
-		Eps(sin_x, y);
-		cout << endl;
-
-		//Рассчет 6 членов ряда Тейлора
-		_asm {
-			FLD y
-			FLD x_11
-			FLD fact_11
-			FDIV
-			FSUB
-			FXCH st(0)
-			FSTP y
-		}
-		cout << "Для 6 членов ряда Тейлора" << endl;
-		cout << "Рассчитанное значение: sin(" << x_grad << ") = " << y << endl;
-		cout << "Эталонное значение: sin(" << x_grad << ") = " << sin_x << endl;
-		Eps(sin_x, y);
 		cout << endl;
 	}
-
 }
+
+
+/*
+	if (check == y)
+	{
+		dy = 366;
+	}
+	else
+	{
+		dy = 365;
+	}
+
+	if (m == 1 || m == 3 || m == 5 || m == 7 || m == 8 || m == 10 || m == 12)
+	{
+		dm = 31;
+	}
+	else if (m == 4 || m == 6 || m == 9 || m == 11)
+	{
+		dm = 30;
+	}
+	else if (m == 2 && dy == 366)
+	{
+		dm = 29;
+	}
+	else
+	{
+		dm = 28;
+	}
+*/
