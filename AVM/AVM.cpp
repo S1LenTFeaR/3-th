@@ -20,16 +20,9 @@ void main()
 		cin >> m;
 		_asm
 		{
-			//Проверка, был ли введен месяц > 13
-			mov		eax, m
-		limit:
-			sub		eax, 1
-			cmp		eax, 0
-			je		my_begin
-			cmp		i, 13
-			je		my_exit
-			inc		i
-			jmp		limit
+			//Проверка, был ли введен m > 12
+			cmp		m, 12
+			jg		my_exit
 		my_begin:
 			//Проверка на количество дней в году
 			//check = (y / 4) * 4;
